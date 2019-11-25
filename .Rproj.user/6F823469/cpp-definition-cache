@@ -1,0 +1,212 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "proc_OERmat(sp_mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@proc_OERmat#$@N@arma@C@SpMat>#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 38,
+                "name" : "proc_OERvec(sp_mat, IntegerVector, IntegerVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@proc_OERvec#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S1_#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 67,
+                "name" : "uvec_push(uvec &, unsigned int)",
+                "parent_name" : "",
+                "usr" : "c:@F@uvec_push#&$@N@arma@C@Col>#i#i#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 74,
+                "name" : "BDC_cs(sp_mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@BDC_cs#$@N@arma@C@SpMat>#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 114,
+                "name" : "filter_ccOER(arma::sp_mat, List, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@filter_ccOER#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#d#"
+            }
+        ],
+        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+        "file_last_write" : 1573529658
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph.cpp",
+                "kind" : 6,
+                "line" : 8,
+                "name" : "iseq_els(IntegerVector, IntegerVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@iseq_els#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#b#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph.cpp",
+                "kind" : 6,
+                "line" : 32,
+                "name" : "append_els_to_A(umat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@append_els_to_A#$@N@arma@C@Mat>#i#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph.cpp",
+                "kind" : 6,
+                "line" : 50,
+                "name" : "build_Raw(List, StringVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@build_Raw#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI16#@N@Rcpp@CT>1#T@PreserveStorage#b#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph.cpp",
+                "kind" : 6,
+                "line" : 64,
+                "name" : "build_CondRaw(List, StringVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@build_CondRaw#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI16#@N@Rcpp@CT>1#T@PreserveStorage#b#"
+            }
+        ],
+        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph.cpp",
+        "file_last_write" : 1567508737
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph_sp.cpp",
+                "kind" : 6,
+                "line" : 8,
+                "name" : "iseq_els_sp(IntegerVector, IntegerVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@iseq_els_sp#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#b#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph_sp.cpp",
+                "kind" : 6,
+                "line" : 33,
+                "name" : "append_els_to_A_sp(sp_mat, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@append_els_to_A_sp#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph_sp.cpp",
+                "kind" : 6,
+                "line" : 52,
+                "name" : "build_Raw_sp(List, StringVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@build_Raw_sp#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI16#@N@Rcpp@CT>1#T@PreserveStorage#b#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph_sp.cpp",
+                "kind" : 6,
+                "line" : 71,
+                "name" : "build_CondRaw_sp(List, StringVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@build_CondRaw_sp#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI16#@N@Rcpp@CT>1#T@PreserveStorage#b#"
+            }
+        ],
+        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph_sp.cpp",
+        "file_last_write" : 1567509101
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/claim_to_graph - 複製.cpp",
+                "kind" : 6,
+                "line" : 5,
+                "name" : "iseq_els(IntegerVector, IntegerVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@iseq_els#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S0_#b#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/claim_to_graph - 複製.cpp",
+                "kind" : 6,
+                "line" : 29,
+                "name" : "append_els_to_A(IntegerMatrix, List)",
+                "parent_name" : "",
+                "usr" : "c:@F@append_els_to_A#$@N@Rcpp@C@Matrix>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/claim_to_graph - 複製.cpp",
+                "kind" : 6,
+                "line" : 47,
+                "name" : "multiEls_to_AA(List, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@multiEls_to_AA#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            }
+        ],
+        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/claim_to_graph - 複製.cpp",
+        "file_last_write" : 1566882636
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/rawnet_filter.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "filter_OER(arma::mat, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@filter_OER#$@N@arma@C@Mat>#d#d#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/rawnet_filter.cpp",
+                "kind" : 6,
+                "line" : 34,
+                "name" : "Ftest_c(arma::mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@Ftest_c#$@N@arma@C@Mat>#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/rawnet_filter.cpp",
+                "kind" : 6,
+                "line" : 41,
+                "name" : "filter_phi(arma::mat, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@filter_phi#$@N@arma@C@Mat>#d#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/rawnet_filter.cpp",
+                "kind" : 6,
+                "line" : 67,
+                "name" : "filter_dispar(arma::mat, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@filter_dispar#$@N@arma@C@Mat>#d#d#"
+            }
+        ],
+        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/rawnet_filter.cpp",
+        "file_last_write" : 1568003990
+    }
+]
