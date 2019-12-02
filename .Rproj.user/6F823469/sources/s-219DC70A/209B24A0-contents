@@ -1,0 +1,27 @@
+### 20190903
+### build raw comoNet v2
+setwd("C:/Users/user/Desktop/ComoWeb")
+df <- readRDS(paste0("dat/oipd_b",b,".RDS"))
+df <- df[df$src==2,] #### include inpatient only
+df$date <- as.integer(df$date)
+df$birth <- as.integer(df$birth)
+df$ageday <- df$date - df$birth
+
+df <- df[df$ID%in%unique(df$ID)[1:2000],]
+df$ID <- as.integer(as.factor(df$ID))
+df$ageday <- df$ageday-min(df$ageday)
+df$sex <- sample(x = c("M","F"),NROW(df),replace = T)
+
+dz.lv <- sort(unique(c(df$ICD_1, df$ICD_2, df$ICD_3, df$ICD_4, df$ICD_5)))
+
+df$ICD_1[!is.na(df$ICD_1)] <- paste0("D",as.integer(factor(df$ICD_1[!is.na(df$ICD_1)], levels = dz.lv)))
+df$ICD_2[!is.na(df$ICD_2)] <- paste0("D",as.integer(factor(df$ICD_2[!is.na(df$ICD_2)], levels = dz.lv)))
+df$ICD_3[!is.na(df$ICD_3)] <- paste0("D",as.integer(factor(df$ICD_3[!is.na(df$ICD_3)], levels = dz.lv)))
+df$ICD_4[!is.na(df$ICD_4)] <- paste0("D",as.integer(factor(df$ICD_4[!is.na(df$ICD_4)], levels = dz.lv)))
+df$ICD_5[!is.na(df$ICD_5)] <- paste0("D",as.integer(factor(df$ICD_5[!is.na(df$ICD_5)], levels = dz.lv)))
+df <- df[,c(1,3,7:12)]
+colnames(df)[3:7] <- paste0("DZ",1:5)
+
+
+saveRDS(df, "demo_data.RDS")
+

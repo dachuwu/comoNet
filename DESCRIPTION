@@ -1,7 +1,7 @@
 Package: comoNet
 Type: Package
 Title: Reconstruct Co-morbidity Network from Claim Data
-Version: 01
+Version: 0.1
 Date: 2019-08-21
 Author: Ta-Chou Ng
 Maintainer: Ta-Chou Ng <dachuwu@gmail.com>

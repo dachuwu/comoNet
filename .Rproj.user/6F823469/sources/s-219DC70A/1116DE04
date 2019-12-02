@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1575279871080.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1116DE04",
+    "lastKnownWriteTime" : 1575282146,
+    "last_content_update" : 1575282146562,
+    "path" : "C:/Users/user/Desktop/ComoWeb/demo_comoNet.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "40,8",
+        "scrollLine" : "13",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

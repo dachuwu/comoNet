@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1575279464476.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "10|28|35|0|\n",
+    "hash" : "3136871225",
+    "id" : "7DFE1DCF",
+    "lastKnownWriteTime" : 1573529658,
+    "last_content_update" : 1575279902841,
+    "path" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
+    "project_path" : "src/ccOER_filter.cpp",
+    "properties" : {
+        "cursorPosition" : "124,2",
+        "scrollLine" : "113"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}

@@ -8,7 +8,7 @@ Build Disease Co-morbidity Network Based on Phi-correlation Measure
 This is a filtering function that removes insignificant co-morbidity links/edges from the raw co-morbidity network generated from individual disease progression data. Links/edges  with significant Phi-correlation coefficient greater than 0 are kept as the resulting network.
 }
 \usage{
-filter_phi(A, sig_lv)	
+filter_phi(A)	
 }
 \arguments{
   \item{A}{adjacency matrix of raw progression network}

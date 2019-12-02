@@ -1,0 +1,24 @@
+\name{filter_OER}
+\alias{filter_OER}
+\docType{package}
+\title{
+Build Disease Co-morbidity Network Based on Observed-to-expected ratio (OER) Measure
+}
+\description{
+This is a filtering function that removes insignificant co-morbidity links/edges from the raw co-morbidity network generated from individual disease progression data. Links/edges  with significant Observed-to-expected ratio (OER) greater than 1 are kept as the resulting network. The default significance level is 0.05. 
+}
+\usage{
+filter_OER(A)	
+}
+\arguments{
+  \item{A}{adjacency matrix of raw co-morbidity network}
+  \item{sig_lv}{the significance level}
+}
+\examples{
+\dontrun{
+filter_OER(A)	
+}
+}
+\references{
+Hidalgo, C. A., Blumm, N., Barabási, A. L., & Christakis, N. A. (2009). A dynamic network approach for the study of human phenotypes. PLoS computational biology, 5(4), e1000353.
+}

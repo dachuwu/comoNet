@@ -5,10 +5,10 @@
 Build Disease Co-morbidity Network Based on Disparity Filter
 }
 \description{
-This is a filtering function that removes insignificant co-morbidity links/edges from the raw co-morbidity network generated from individual disease progression data. The observed link/edge weights are compared with the network null model to determine each link/edge's p value, as in (Serrano, et al. 2009).
+This is a filtering function that removes insignificant co-morbidity links/edges from the raw co-morbidity network generated from individual disease progression data. The observed link/edge weights are compared with the network null model to determine each link/edge's p value, as in (Serrano, et al. 2009). The default significance level is 0.05. 
 }
 \usage{
-filter_dispar(A, sig_lv)	
+filter_dispar(A)	
 }
 \arguments{
   \item{A}{adjacency matrix of raw progression network}
@@ -29,5 +29,5 @@ filter_dispar(A, sig_lv)
 }
 
 \references{
-Serrano, M. A., Boguna, M., & Vespignani, A. (2009). Extracting the multiscale backbone of complex weighted networks. Proceedings of the national academy of sciences, 106(16), 6483-6488.
+Serrano, M. Á., Boguná, M., & Vespignani, A. (2009). Extracting the multiscale backbone of complex weighted networks. Proceedings of the national academy of sciences, 106(16), 6483-6488.
 }
