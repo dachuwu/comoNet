@@ -94,6 +94,3 @@ get_ipseq <- function(df, var_id ="ID",
 }
 
 
-diagnostic_data <- readRDS("R/demo_data.RDS") 
-
-

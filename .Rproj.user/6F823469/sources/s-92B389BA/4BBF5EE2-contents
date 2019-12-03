@@ -20,13 +20,15 @@ The package provides a sample dataset of the disease records of 3000 individuals
 #devtools::install_github("dachuwu/comoNet")
 
 library(comoNet)
-head(diagnostic_data, 10)
+library(Matrix)
+library(igraph)
+head(diagnose, 10)
 ```
 
 
 ### (2) Convert to individual progression sequence
 ```{r message=FALSE, warning=FALSE, paged.print=TRUE}
-ipseq <- get_ipseq(df = diagnostic_data, 
+ipseq <- get_ipseq(df = diagnose, 
                    var_id = "ID", var_t = "ageday", 
                    var_dz = c("DZ1","DZ2","DZ3","DZ4","DZ5"))
 ipseq[1:3]
@@ -36,7 +38,7 @@ ipseq[1:3]
 ### (3) Build raw comorbidity network
 ```{r message=FALSE, warning=FALSE, paged.print=TRUE}
 dzLevel <- sort(unique(
-  c(diagnostic_data$DZ1,diagnostic_data$DZ2, diagnostic_data$DZ3, diagnostic_data$DZ4, diagnostic_data$DZ5)
+  c(diagnose$DZ1, diagnose$DZ2, diagnose$DZ3, diagnose$DZ4, diagnose$DZ5)
 ))
 res <- comoNet_from_prog_sp(ipseq = ipseq, dz.lv = dzLevel, bidir = F, conditional = F)
 raw_net <- res[[1]]
