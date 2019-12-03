@@ -20,8 +20,6 @@ The package provides a sample dataset of the disease records of 3000 individuals
 #devtools::install_github("dachuwu/comoNet")
 
 library(comoNet)
-library(Matrix)
-library(igraph)
 head(diagnostic_data, 10)
 ```
 
