@@ -7,10 +7,11 @@
         "-IC:/Users/user/Documents/R/win-library/3.6/Rcpp/include",
         "-IC:/Users/user/Documents/R/win-library/3.6/RcppArmadillo/include",
         "-IC:/Users/user/Documents/R/win-library/3.6/Matrix/include",
-        "-IC:/PROGRA~1/R/R-36~1.0/include",
-        "-DNDEBUG"
+        "-IC:/PROGRA~1/R/R-36~1.1/include",
+        "-DNDEBUG",
+        "-std=c++11"
     ],
-    "hash" : "1567508905",
+    "hash" : "1575345175",
     "is_cpp" : true,
     "pch" : "Rcpp"
 }

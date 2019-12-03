@@ -6,19 +6,6 @@
 
 using namespace Rcpp;
 
-// filter_ccOER
-List filter_ccOER(arma::sp_mat W, List U, double sig_lv);
-RcppExport SEXP _comoNet_filter_ccOER(SEXP WSEXP, SEXP USEXP, SEXP sig_lvSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< arma::sp_mat >::type W(WSEXP);
-    Rcpp::traits::input_parameter< List >::type U(USEXP);
-    Rcpp::traits::input_parameter< double >::type sig_lv(sig_lvSEXP);
-    rcpp_result_gen = Rcpp::wrap(filter_ccOER(W, U, sig_lv));
-    return rcpp_result_gen;
-END_RCPP
-}
 // build_Raw
 List build_Raw(List iseq, StringVector dzlv, bool bidir);
 RcppExport SEXP _comoNet_build_Raw(SEXP iseqSEXP, SEXP dzlvSEXP, SEXP bidirSEXP) {
@@ -109,7 +96,6 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_comoNet_filter_ccOER", (DL_FUNC) &_comoNet_filter_ccOER, 3},
     {"_comoNet_build_Raw", (DL_FUNC) &_comoNet_build_Raw, 3},
     {"_comoNet_build_CondRaw", (DL_FUNC) &_comoNet_build_CondRaw, 3},
     {"_comoNet_build_Raw_sp", (DL_FUNC) &_comoNet_build_Raw_sp, 3},

@@ -2,57 +2,6 @@
     {
         "definitions" : [
             {
-                "column" : 7,
-                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
-                "kind" : 6,
-                "line" : 11,
-                "name" : "proc_OERmat(sp_mat)",
-                "parent_name" : "",
-                "usr" : "c:@F@proc_OERmat#$@N@arma@C@SpMat>#d#"
-            },
-            {
-                "column" : 6,
-                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
-                "kind" : 6,
-                "line" : 38,
-                "name" : "proc_OERvec(sp_mat, IntegerVector, IntegerVector)",
-                "parent_name" : "",
-                "usr" : "c:@F@proc_OERvec#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S1_#"
-            },
-            {
-                "column" : 6,
-                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
-                "kind" : 6,
-                "line" : 67,
-                "name" : "uvec_push(uvec &, unsigned int)",
-                "parent_name" : "",
-                "usr" : "c:@F@uvec_push#&$@N@arma@C@Col>#i#i#"
-            },
-            {
-                "column" : 6,
-                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
-                "kind" : 6,
-                "line" : 74,
-                "name" : "BDC_cs(sp_mat)",
-                "parent_name" : "",
-                "usr" : "c:@F@BDC_cs#$@N@arma@C@SpMat>#d#"
-            },
-            {
-                "column" : 6,
-                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
-                "kind" : 6,
-                "line" : 114,
-                "name" : "filter_ccOER(arma::sp_mat, List, double)",
-                "parent_name" : "",
-                "usr" : "c:@F@filter_ccOER#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#d#"
-            }
-        ],
-        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/ccOER_filter.cpp",
-        "file_last_write" : 1573529658
-    },
-    {
-        "definitions" : [
-            {
                 "column" : 6,
                 "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph.cpp",
                 "kind" : 6,
@@ -133,6 +82,57 @@
         ],
         "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/claim_to_graph_sp.cpp",
         "file_last_write" : 1567509101
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 11,
+                "name" : "proc_OERmat(sp_mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@proc_OERmat#$@N@arma@C@SpMat>#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 38,
+                "name" : "proc_OERvec(sp_mat, IntegerVector, IntegerVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@proc_OERvec#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#S1_#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 67,
+                "name" : "uvec_push(uvec &, unsigned int)",
+                "parent_name" : "",
+                "usr" : "c:@F@uvec_push#&$@N@arma@C@Col>#i#i#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 74,
+                "name" : "BDC_cs(sp_mat)",
+                "parent_name" : "",
+                "usr" : "c:@F@BDC_cs#$@N@arma@C@SpMat>#d#"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/ccOER_filter.cpp",
+                "kind" : 6,
+                "line" : 114,
+                "name" : "filter_ccOER(arma::sp_mat, List, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@filter_ccOER#$@N@arma@C@SpMat>#d#$@N@Rcpp@C@Vector>#VI19#@N@Rcpp@CT>1#T@PreserveStorage#d#"
+            }
+        ],
+        "file" : "C:/Users/user/Desktop/ComoWeb/comoNet/src/obs/ccOER_filter.cpp",
+        "file_last_write" : 1573529658
     },
     {
         "definitions" : [
