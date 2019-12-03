@@ -18,25 +18,26 @@ The package provides a sample dataset of the disease records of 3000 individuals
 library(comoNet)
 library(Matrix)
 library(igraph)
-head(diagnostic_data, 10)
+data(diagnose)
+head(diagnose, 10)
 ```
 
     ##      ID sex DZ1  DZ2  DZ3  DZ4  DZ5 ageday
-    ## 74    1   M D40 <NA> <NA> <NA> <NA>  20467
-    ## 146   1   M D40  D41 <NA> <NA> <NA>  21727
-    ## 170   1   F D40  D40  D40 <NA> <NA>  22315
-    ## 178   1   F D40  D40  D40 <NA> <NA>  22504
-    ## 196   1   F D40  D41 <NA> <NA> <NA>  22894
-    ## 516   2   F D68  D59 <NA> <NA> <NA>  22922
+    ## 74    1   F D40 <NA> <NA> <NA> <NA>  20467
+    ## 146   1   F D40  D41 <NA> <NA> <NA>  21727
+    ## 170   1   M D40  D40  D40 <NA> <NA>  22315
+    ## 178   1   M D40  D40  D40 <NA> <NA>  22504
+    ## 196   1   M D40  D41 <NA> <NA> <NA>  22894
+    ## 516   2   M D68  D59 <NA> <NA> <NA>  22922
     ## 710   2   M D34  D34 <NA> <NA> <NA>  26523
-    ## 947   3   F D46  D47  D46 <NA> <NA>  10145
-    ## 1236  4   M D63  D65  D72 <NA> <NA>  10205
+    ## 947   3   M D46  D47  D46 <NA> <NA>  10145
+    ## 1236  4   F D63  D65  D72 <NA> <NA>  10205
     ## 1401  5   M  D6   D8  D50 <NA> <NA>  19665
 
 ### (2) Convert to individual progression sequence
 
 ``` r
-ipseq <- get_ipseq(df = diagnostic_data, 
+ipseq <- get_ipseq(df = diagnose, 
                    var_id = "ID", var_t = "ageday", 
                    var_dz = c("DZ1","DZ2","DZ3","DZ4","DZ5"))
 ipseq[1:3]
@@ -62,7 +63,7 @@ ipseq[1:3]
 
 ``` r
 dzLevel <- sort(unique(
-  c(diagnostic_data$DZ1,diagnostic_data$DZ2, diagnostic_data$DZ3, diagnostic_data$DZ4, diagnostic_data$DZ5)
+  c(diagnose$DZ1, diagnose$DZ2, diagnose$DZ3, diagnose$DZ4, diagnose$DZ5)
 ))
 res <- comoNet_from_prog_sp(ipseq = ipseq, dz.lv = dzLevel, bidir = F, conditional = F)
 ```
@@ -89,6 +90,8 @@ plot(g0, layout=layout_in_circle, edge.arrow.size=.2, vertex.frame.color="white"
 ![](ReadMe_files/figure-markdown_github/unnamed-chunk-3-2.png)
 
 ### (4) Filter out insignificant links
+
+Since the raw comorbidity network contains all disease progression links regardless of statistical significance, we need to apply filters to obtaing the significant backbones of the comorbidity network. Currently there are three methods included, using different associative measure.
 
 #### By observed-to-expected (OER) measure
 

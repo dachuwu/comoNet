@@ -22,6 +22,7 @@ The package provides a sample dataset of the disease records of 3000 individuals
 library(comoNet)
 library(Matrix)
 library(igraph)
+data(diagnose)
 head(diagnose, 10)
 ```
 
@@ -56,6 +57,7 @@ plot(g0, layout=layout_in_circle, edge.arrow.size=.2, vertex.frame.color="white"
 ```
 
 ### (4) Filter out insignificant links 
+Since the raw comorbidity network contains all disease progression links regardless of statistical significance, we need to apply filters to obtaing the significant backbones of the comorbidity network. Currently there are three methods included, using different associative measure.
 
 #### By observed-to-expected (OER) measure
 ```{r message=FALSE, warning=FALSE, paged.print=TRUE}
